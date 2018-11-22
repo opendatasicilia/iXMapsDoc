@@ -1,4 +1,4 @@
-![](img/logo_iX_maps_ODS.png)
+![](img/iXMaps_Doc.jpg)
 
 #  opendatasicilia iXMapsDoc
 
