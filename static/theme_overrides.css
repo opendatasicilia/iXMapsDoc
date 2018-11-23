@@ -57,7 +57,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /* background nav-top sx*/
 .wy-side-nav-search {background:  #ffffff;}
 /* box search sx*/
-.wy-side-nav-search input[type="text"] {border-color: #589632; background-image: url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/static/search_01.png); background-repeat: no-repeat; 
+.wy-side-nav-search input[type="text"] {border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/static/search_01.png); background-repeat: no-repeat; 
 background-position: 10px; background-size: 15px; font-weight: bold;} 
 .wy-side-nav-search input[type="text"] {padding: 6px 30px;}
 
@@ -126,9 +126,9 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 .wy-menu-vertical li.current a:current {color: #fff;}
 
 /*link di base*/
-a {color: #f18d36; }
-a:hover {color: #f18d36; text-decoration:underline; }
-a:visited {color: #589632; text-decoration:none; }
+a {color: #9F3A3A; }
+a:hover {color: #9F3A3A; text-decoration:underline; }
+a:visited {color: #FF0000; text-decoration:none; }
 
 /* pagina avanti/indietro */
 .btn { background-color:  #67b03a !important;
@@ -148,7 +148,7 @@ a:visited {color: #589632; text-decoration:none; }
 .wy-nav-top { background-image: url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/logo_mobile_01.png);
 background-repeat: no-repeat;background-position: center;background-color: #67b03a; }
 /* aumenta leggerhente lo spazio della pagina inmobile ed inserisce il logo QGIS al centro*/
-@media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/  background-repeat: no-repeat!important;  background-position: center center!important;
+@media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;  background-repeat: no-repeat!important;  background-position: center center!important;
     background-size: 95%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }}
 @media (min-width: 320px) and (max-width: 1023px) {h2 {color: #344c25 !important; font-size: 115%!important;} }
 @media (min-width: 320px) and (max-width: 1023px) {h3 {color: #344c25 !important; font-size: 105%!important;} }
@@ -163,10 +163,10 @@ background-repeat: no-repeat;background-position: center;background-color: #67b0
 span.commit {display: none;}
 
 /* hr filetto bicolor dal centro verso l'esterno */
-hr  {border: 0; height: 1px; background:  #589632; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);}
+hr  {border: 0; height: 1px; background:  #FF0000; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);}
 
 /* bordo/ombra immagine */
-.rst-content img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #589632;	padding: 1px;background-color: #fff;}
+.rst-content img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FF0000;	padding: 1px;background-color: #fff;}
 
 /* immagine no bordo/ no ombra */
 .immagonobox {	max-width: 100%!important;    height: auto!important;	box-shadow: none !important; border: none !important;	border-radius:  none !important;	moz-border-radius: none !important; -webkit-border-radius: none !important;	background-color: transparent !important;	}
@@ -191,7 +191,7 @@ div.ethical-text {color: #344c25 !important;}
 .social {font-style: italic; color: #4E4B4B; font-size: 14px;}
 .social a:link{color: #344c25;	text-decoration:none;}
 .social a:visited {	color: #344c25; text-decoration:none;}
-.social a:hover {color: #f18d36; text-decoration:none; } 
+.social a:hover {color: #9F3A3A; text-decoration:none; } 
  @media (min-width: 320px) and (max-width: 736px) {.social {font-size: 8.5px;}}
  
  /* testo sphinx footer */
@@ -222,7 +222,7 @@ blockquote {
 position: relative;
 padding-left: 1em;
 margin-left: 32px;
-border-left: 0.2em solid #589632;
+border-left: 0.2em solid #FF0000;
 padding: 20px;
 font-family: 'Roboto', serif;
 font-size: 1.5em;
@@ -230,7 +230,7 @@ line-height: 1.5em;
 font-weight: 100;
 }
 
-blockquote::before, blockquote::after {content: '\201C'; font-family: 'Sanchez'; font-size: 1.7em; color: #589632;  top: 5px;}
+blockquote::before, blockquote::after {content: '\201C'; font-family: 'Sanchez'; font-size: 1.7em; color: #FF0000;  top: 5px;}
 blockquote::after { content: '\201D';}
 
 /* menù footer */
