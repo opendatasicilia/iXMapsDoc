@@ -145,8 +145,8 @@ a:visited {color: #FF0000; text-decoration:none; }
 	text-decoration: none !important;}
 	
 /* mobile logo */
-.wy-nav-top { background-image: url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/logo_mobile_01.png);
-background-repeat: no-repeat;background-position: center;background-color: #67b03a; }
+.wy-nav-top { background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile.png);
+background-repeat: no-repeat;background-position: center;background-color: #ff0000; }
 /* aumenta leggerhente lo spazio della pagina inmobile ed inserisce il logo QGIS al centro*/
 @media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;  background-repeat: no-repeat!important;  background-position: center center!important;
     background-size: 95%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }}
@@ -163,7 +163,7 @@ background-repeat: no-repeat;background-position: center;background-color: #67b0
 span.commit {display: none;}
 
 /* hr filetto bicolor dal centro verso l'esterno */
-hr  {border: 0; height: 1px; background:  #FF0000; background-image: linear-gradient(to right, #93b023,  #589632, #93b023);}
+hr  {border: 0; height: 1px; background:  #FF0000; background-image: linear-gradient(to right, #ff0000,  #9F3A3A, #ff0000);}
 
 /* bordo/ombra immagine */
 .rst-content img {box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FF0000;	padding: 1px;background-color: #fff;}
@@ -203,8 +203,8 @@ div.ethical-text {color: #344c25 !important;}
 @media (min-width: 320px) and (max-width: 736px) {.footer_small, .footer_small a:link,.footer_small a:visited, .footer_small a:hover   {font-size: 12px!important;}}
 
  /* pannello sx lastest */
-.rst-versions .rst-current-version {background: #344c25; text-align: center;}
-.wy-nav-side {background: #344c25;}
+.rst-versions .rst-current-version {background: #9F3A3A; text-align: center;}
+.wy-nav-side {background: #9F3A3A;}
 
 
 /* cambio margini riga intestazione*/
