@@ -253,7 +253,7 @@ $(document).ready( function() {
 	if ($(".eupopup").length > 0) {
 		$(document).euCookieLawPopup().init({
 			'info' : 'YOU_CAN_ADD_MORE_SETTINGS_HERE',
-			'popupTitle' : '<img src="https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile_02.png" alt="iXMapsDoc" title="iXMapsDoc" width="200" border="0" ><br><br> Questo sito, hfcqgis.opendatasicilia.it utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web. <br> ',
+			'popupTitle' : '<img src="https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile_03.png" alt="iXMapsDoc" title="iXMapsDoc" width="200" border="0" ><br><br> Questo sito, ixmapsdoc.opendatasicilia.it utilizza i cookie, anche di terze parti, per migliorare la vostra esperienza di navigazione web. <br> ',
 			'popupText' : 'Chiudendo questo messaggio, scorrendo questa pagina o cliccando su qualunque suo elemento acconsenti all&rsquo;uso dei cookie.<br> Per maggiori informazioni o per negare il consenso a tutti o ad alcuni cookie, consulta l&rsquo;informativa!</a>'
 		});
 	}
