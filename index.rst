@@ -5,8 +5,10 @@ Crea mappe tematiche multistrato in grafica vettoriale (SVG) con riquadri vettor
 una GUI reattiva e mobile compatibile in HTML5.
 
 
-
-# WORK IN PROGRESS
+.. toctree::
+   :maxdepth: 2
+      
+   api/api
 
 
 
