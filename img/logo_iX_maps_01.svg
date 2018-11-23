@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="logo_iX_maps_01.svg">
+   sodipodi:docname="logo_iX_maps_01.svg"
+   inkscape:export-filename="H:\GitHub - Clone\iXMapsDoc\img\ods_ixmaps_logo.png"
+   inkscape:export-xdpi="254"
+   inkscape:export-ydpi="254">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -158,71 +161,74 @@
            style="stroke-width:0.26458332" /></text>
     </g>
     <g
-       id="g69"
-       transform="matrix(0.77962973,0,0,0.71429969,-6.1312974,66.17935)"
-       style="stroke-width:0.8870573">
-      <text
-         transform="rotate(-5.0653453)"
-         id="text56"
-         y="206.18347"
-         x="20.370472"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.47519493px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.23470059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;stroke-width:0.23470059px"
+       id="g5319">
+      <g
+         style="stroke-width:0.8870573"
+         transform="matrix(0.77962973,0,0,0.71429969,-6.1312974,66.17935)"
+         id="g69">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.47519493px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23470059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+           x="20.370472"
            y="206.18347"
-           x="20.370472"
-           id="tspan54"
-           sodipodi:role="line">iX</tspan><tspan
-           id="tspan58"
-           style="fill:#0000ff;stroke-width:0.23470059px"
-           y="234.27747"
-           x="20.370472"
-           sodipodi:role="line" /></text>
-      <text
-         id="text62"
-         y="211.07283"
-         x="38.085911"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:0.23470056px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;stroke-width:0.23470056px"
-           y="211.07283"
+           id="text56"
+           transform="rotate(-5.0653453)"><tspan
+             sodipodi:role="line"
+             id="tspan54"
+             x="20.370472"
+             y="206.18347"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;stroke-width:0.23470059px;">iX</tspan><tspan
+             sodipodi:role="line"
+             x="20.370472"
+             y="234.27747"
+             style="fill:#000000;stroke-width:0.23470059px;"
+             id="tspan58" /></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;line-height:125%;font-family:Trueno;-inkscape-font-specification:Trueno;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23470056px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
            x="38.085911"
-           id="tspan60"
-           sodipodi:role="line">Maps</tspan></text>
-    </g>
-    <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.22240369"
-       id="rect5225"
-       width="8.4910765"
-       height="4.8059058"
-       x="35.733677"
-       y="218.79228"
-       ry="0.68774784" />
-    <g
-       id="g5259"
-       transform="matrix(1.0918761,0,0,1.0596264,-5.8140517,-13.235158)">
-      <text
-         id="text5229"
-         y="222.31038"
-         x="38.737099"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;line-height:1.25;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.06921471"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;stroke-width:0.06921471"
-           y="222.31038"
+           y="211.07283"
+           id="text62"><tspan
+             sodipodi:role="line"
+             id="tspan60"
+             x="38.085911"
+             y="211.07283"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Trueno;-inkscape-font-specification:'Trueno Bold';fill:#000000;stroke-width:0.23470056px;">Maps</tspan></text>
+      </g>
+      <rect
+         ry="0.68774784"
+         y="218.79228"
+         x="35.733677"
+         height="4.8059058"
+         width="8.4910765"
+         id="rect5225"
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.22240369" />
+      <g
+         transform="matrix(1.0918761,0,0,1.0596264,-5.8140517,-13.235158)"
+         id="g5259">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;line-height:1.25;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.06921471"
            x="38.737099"
-           id="tspan5227"
-           sodipodi:role="line">docs</tspan></text>
-      <text
-         id="text5229-5"
-         y="222.20752"
-         x="38.650265"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;line-height:1.25;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.06921472"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.06921472"
-           y="222.20752"
+           y="222.31038"
+           id="text5229"><tspan
+             sodipodi:role="line"
+             id="tspan5227"
+             x="38.737099"
+             y="222.31038"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;stroke-width:0.06921471">docs</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;line-height:1.25;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.06921472"
            x="38.650265"
-           id="tspan5227-1"
-           sodipodi:role="line">docs</tspan></text>
+           y="222.20752"
+           id="text5229-5"><tspan
+             sodipodi:role="line"
+             id="tspan5227-1"
+             x="38.650265"
+             y="222.20752"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76858807px;font-family:Trueno;-inkscape-font-specification:'Trueno, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.06921472">docs</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
