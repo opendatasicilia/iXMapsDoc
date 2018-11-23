@@ -1,0 +1,79 @@
+<!-- http://hfcqgis.opendatasicilia.it -->  
+{% extends "!layout.html" %}
+{% block extrahead %}
+    {{ super() }}
+<!-- site-verification--> 
+<meta name="google-site-verification" content="" />
+<meta name="msvalidate.01" content="" />
+<meta http-equiv="content-language" content="IT">	
+<meta name="creation_Date" content="23/11/2018">
+<meta name="keywords" content="">	
+<meta name="author" content="RTD by OpenDataSicilia.it">
+<meta name="robots" content="index,follow">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- facebook --> 
+<meta property="og:title" content="{{ title|striptags|e }}" />
+<meta property="og:description" content="Bla Bla Bla." />
+<meta property="og:url" content="http://ixmapsdoc.opendatasicilia.it/it/latest/{{ theme_canonical_url }}{{ pagename }}.html" />
+<meta property="og:type" content="article" />
+<meta property="article:author" content="Guenter Richter" />
+<meta property="article:tag" content="ixmapsdoc" />
+<meta property="article:tag" content="ixmaps" />
+<meta property="article:tag" content="opendatasicilia" />
+<meta property="og:image" content="https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/iXMaps_Doc.jpg" />
+<meta property="og:site_name" content="ixmapsdoc.opendatasicilia.it" />
+
+<!-- twitter --> 
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ title|striptags|e }}">
+<meta name="twitter:description" content="Bla Bla Bla.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/iXMaps_Doc.jpg">
+<meta name="twitter:creator" content="Guenter Richter">
+<meta name="twitter:site" content="ixmapsdoc.opendatasicilia.it" />
+<meta name="twitter:url" content="http://ixmapsdoc.opendatasicilia.it/it/latest/{{ theme_canonical_url }}{{ pagename }}.html">
+<!-- css theme_overrides.css -->
+<link href="{{ pathto("_static/theme_overrides.css", True) }}" rel="stylesheet" type="text/css" />
+<!-- css back top -->
+<!--<link href="../_static/jquerysctipttop.css" rel="stylesheet" type="text/css" />-->
+<link href="{{ pathto("_static/jquerysctipttop.css", True) }}" rel="stylesheet" type="text/css" />
+<!--<link href="../_static/backTop.css" rel="stylesheet" type="text/css" />-->
+<link href="{{ pathto("_static/backTop.css", True) }}" rel="stylesheet" type="text/css" />
+<!-- Script -->
+<!--<script type="text/javascript" src="../_static/jquery.min.js"></script> -->
+<script type="text/javascript" src="{{ pathto("_static/jquery.min.js", True) }}"></script> 
+
+<!-- eu-cookie-lawt -->
+<script type="text/javascript" src="../_static/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../_static/jquery-eu-cookie-law-popup.js"></script>
+<link href="{{ pathto("_static/jquery-eu-cookie-law-popup.css", True) }}" rel="stylesheet" type="text/css" />
+
+ {% endblock %}
+ 
+
+<!-- http://ixmapsdoc.opendatasicilia.it -->  
+
+{% block footer %}
+      {{ super() }}
+<div class="eupopup eupopup-top "></div>
+	   <!-- script Back To Top  -->
+      <div class="footerc">
+          <a id='backTop'>Back To Top</a>
+ <!-- script toptoback automatico mobile/desktop -->  
+ <!-- <script type="text/javascript" src="../_static/jquery.backTop.min.js"></script> -->
+<script type="text/javascript" src="{{ pathto("_static/jquery.backTop.min.js", True) }}"></script>
+<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 400,
+                    'speed' : 300,
+                    'color' : 'red',
+					
+					                });
+            });
+        </script>
+      </div>
+	  
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bf7d723266dab94"></script> 
+
+ {% endblock %}
