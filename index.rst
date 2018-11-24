@@ -18,7 +18,7 @@ Contenuti:
 .. toctree::
   :maxdepth: 2
  
-  Home <https://ixmapsdoc.readthedocs.io/fa/latest/>
+  Home <https://ixmapsdoc.readthedocs.io/it/latest/>
 
 .. toctree::
    :maxdepth: 2
