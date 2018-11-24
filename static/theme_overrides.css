@@ -5,8 +5,9 @@
 /*importa i font fontawesome 5.0 per i loghi social*/
  @import url(https://use.fontawesome.com/releases/v5.1.0/css/all.css);
 
-
 body {color: #333333 !important;}
+/* Testo paragrafo giustificto*/
+p {text-align: justify !important;} 
 
 span.pre { overflow-x: auto;  }
 
@@ -42,8 +43,8 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
     background: rgba(255,255,255,0); }
 .wy-side-nav-search {margin-top: -20px;}  
    
-/* Testo paragrafo giustificto*/
-/*p {text-align: justify;} */
+
+
 /* @http://ixmapsdoc.opendatasicilia.it*/
 
 /* adatta il nav-content a fullhd ed inserisce il logo QGIS */
@@ -75,7 +76,7 @@ background-position: 10px; background-size: 15px; font-weight: bold;}
 .wy-menu-vertical a {color:#333333!important;}
 
 /* tutto in maiuscolo prima voce di menu */
-div.wy-menu-vertical > ul > li > a {text-transform: uppercase !important; }
+div.wy-menu-vertical > ul > li > a {text-transform: none !important; }
 /* tutto in maiuscolo prima voce di menu */
 
 /* per applicare underline e colore a voci di menu attive */
@@ -118,7 +119,7 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 
 /* testo menu verticale terzo livello */
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {background: #9F3A3A;}
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {background: rgba(73,125,41,0.50)}
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {background: rgba(120,31,31,0.75);}
 /*.wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {text-transform:none;}*/
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:current {color:#fff!important;}
 .wy-menu-vertical li.current a {border-right: solid 0 #c9c9c9;}
@@ -202,8 +203,8 @@ div.ethical-text {color: #333333 !important;}
 @media (min-width: 320px) and (max-width: 736px) {.footer_small, .footer_small a:link,.footer_small a:visited, .footer_small a:hover   {font-size: 12px!important;}}
 
  /* pannello sx lastest */
-.rst-versions .rst-current-version {background: #9F3A3A; text-align: center;}
-.wy-nav-side {background: #9F3A3A;}
+.rst-versions .rst-current-version {background: #781F1F; text-align: center;}
+.wy-nav-side {background: #781F1F;}
 
 
 /* cambio margini riga intestazione*/
