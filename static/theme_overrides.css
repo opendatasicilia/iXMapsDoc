@@ -89,7 +89,7 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 /* per applicare underline e colore a voci di menu attive */
 
 /* testo menu verticale primo livello */
-.wy-menu-vertical a:hover { background-color: rgba(255,0,0,0.0.8);  color: #ffffff !important;}
+.wy-menu-vertical a:hover { background-color: rgba(255,0,0,1);  color: #ffffff !important;}
 .wy-menu a:hover {color: #fff important;}
 .wy-menu a:visited {color: #fff;}
 .wy-menu-vertical a:visited {color: #333333!}
