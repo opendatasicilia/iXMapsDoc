@@ -244,8 +244,29 @@ blockquote::after { content: '\201D';}
 
 
 /* Navbar */
-.navbar-template { padding: 0px;
-                /*padding: 40px 15px;*/}
-	
-/*.navbar {min-height: 40px !important; }
-.navbar-brand {height: 40px !important; }*/
+    /*body {
+      padding-top: 50px;
+    }*/
+
+    .row {
+      margin: 0;
+      padding: 0;
+    }
+
+    .row [class^="col-"] {
+      padding: 0;
+    }
+
+    .navbar-default {
+      border: 0;
+      background: #499bea;
+      background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+      background: -webkit-linear-gradient(left, #499bea 0%, #207ce5 100%);
+      background: linear-gradient(to right, #499bea 0%, #207ce5 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1);
+    }
+
+    .nav.navbar-nav.navbar-right li a,
+    .navbar-default .navbar-brand {
+      color: white;
+    }
