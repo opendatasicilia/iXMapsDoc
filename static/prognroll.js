@@ -21,7 +21,7 @@
 
             $span.css({
                 position: "fixed",
-                top: 0,
+                top: 50,
                 left: 0,
                 width: 0,
                 height: settings.height,
