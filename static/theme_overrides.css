@@ -128,8 +128,8 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 
 /*link di base*/
 a {color: #9F3A3A; }
-a:hover {color: #9F3A3A; text-decoration:underline; }
-a:visited {color: #FF0000; text-decoration:none; }
+a:hover {color: #9F3A3A !important; text-decoration:underline !important; }
+a:visited {color: #FF0000 !important; text-decoration:none !important; }
 
 /* pagina avanti/indietro */
 .btn { background-color:  #ff0000 !important;
