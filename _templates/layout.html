@@ -106,9 +106,7 @@
             </li>
           </ul>
         </li>
-        <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 2 <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-                    {%- if builder != 'singlehtml' %}
+        <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">{%- if builder != 'singlehtml' %}
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="{{ pathto('search') }}" method="get">
     <input type="text" name="q" placeholder="{{_('cerca su iXMapsDoc') }}" />
@@ -116,7 +114,9 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-{%- endif %}
+{%- endif %} <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+                    
                       </ul>
                       
                     </li>
