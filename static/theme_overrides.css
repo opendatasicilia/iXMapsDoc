@@ -41,16 +41,16 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
  /* disattiva background logo latest  menu sx */
 .wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover {
     background: rgba(255,255,255,0); }
-.wy-side-nav-search {margin-top: 30px;}  
+.wy-side-nav-search {margin-top: -20px;}  
    
 
 
 /* @http://ixmapsdoc.opendatasicilia.it*/
 
 /* adatta il nav-content a fullhd ed inserisce il logo QGIS */
-.wy-nav-content {max-width: 4096px;  /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/
+.wy-nav-content {max-width: 4096px; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/
     background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; margin-top: 50px;}
+    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }
 
 /* background menu sx*/
 /*.wy-side-nav-search {background: linear-gradient(#67b03a, #589632); } */
@@ -127,10 +127,9 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 .wy-menu-vertical li.current a:current {color: #fff;}
 
 /*link di base*/
-a {color: #9F3A3A!important; }
-a:hover {color: #9F3A3A; text-decoration:underline !important;}
+a {color: #9F3A3A; }
+a:hover {color: #9F3A3A; text-decoration:underline; }
 a:visited {color: #FF0000; text-decoration:none; }
-a:focus, {color: #9F3A3A; text-decoration: underline;}
 
 /* pagina avanti/indietro */
 .btn { background-color:  #ff0000 !important;
@@ -147,15 +146,12 @@ a:focus, {color: #9F3A3A; text-decoration: underline;}
 	text-decoration: none !important;}
 	
 /* mobile logo */
-.wy-nav-top {margin-top: 50px; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile_02.png);
+.wy-nav-top { background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile_02.png);
 background-repeat: no-repeat;background-position: center;background-color: #ff0000; }
-@media screen and (min-width: 1100px) {.wy-nav-content {margin-top: 40px;}}
 /* aumenta leggerhente lo spazio della pagina inmobile ed inserisce il logo QGIS al centro*/
-@media (min-width: 320px) and (max-width: 768px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; background: #efefef;margin-top: 0px; }}
-@media (min-width: 769px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; background: #efefef;margin-top: 40px; }}
-
-@media (min-width: 320px) and (max-width: 1023px) {h2 {color: #333333 !important; font-size: 115%!important; } }
-@media (min-width: 320px) and (max-width: 1023px) {h3 {color: #333333 !important; font-size: 105%!important; } }
+@media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;  background-repeat: no-repeat!important;  background-position: center center!important;     background-size: 95%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #efefef; }}
+@media (min-width: 320px) and (max-width: 1023px) {h2 {color: #333333 !important; font-size: 115%!important;} }
+@media (min-width: 320px) and (max-width: 1023px) {h3 {color: #333333 !important; font-size: 105%!important;} }
 
 /* spegne girhub nella breadcrumbs */
 /* .fa.fa-github {display: none;} */
@@ -164,7 +160,7 @@ background-repeat: no-repeat;background-position: center;background-color: #ff00
 span.commit {display: none;}
 
 /* hr filetto bicolor dal centro verso l'esterno */
-hr  {border: 0!important; height: 1px!important; background:  #FF0000!important; background-image: linear-gradient(to right, #ff0000,  #9F3A3A, #ff0000)!important;}
+hr  {border: 0; height: 1px; background:  #FF0000; background-image: linear-gradient(to right, #ff0000,  #9F3A3A, #ff0000);}
 
 /* bordo/ombra immagine */
 .rst-content img {display: block; margin: 0 auto; box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FFF;	padding: 1px;background-color: #fff;}
@@ -241,11 +237,3 @@ blockquote::after { content: '\201D';}
   @media (min-width: 600px) and (max-width: 736px) {#menuft {font-size: 14px;}}
 
 .text_red{ color:#FF0000; font-style: italic;}
-
-
-/* Navbar */
-.navbar-template { padding: 0px;
-                /*padding: 40px 15px;*/}
-	
-/*.navbar {min-height: 40px !important; }
-.navbar-brand {height: 40px !important; }*/
