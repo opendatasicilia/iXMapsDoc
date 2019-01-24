@@ -54,6 +54,42 @@
 {% block footer %}
       {{ super() }}
 <div class="eupopup eupopup-top "></div>
+<!-- Hide Navbar --> 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-top" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="/">Brand</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-top">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+        <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- script Hide Navbar --> 
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> --> 
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script> 
+ <script type="text/javascript" src="{{ pathto("_static/navstrap.min.js", True) }}"></script> 
+  <script>
+    $(function () {
+      'use strict';
+
+      $('.navbar').NavStrap().ShowOrHideOnScroll({
+        delta: 5,
+        speed: 250,
+        shadow: true
+      });
+    });
+  </script>
+
+
+
+
+
 	   <!-- script Back To Top  -->
       <div class="footerc">
    <a id='backTop'>Back To Top</a>
