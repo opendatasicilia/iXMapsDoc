@@ -38,10 +38,6 @@ a:focus, a:hover {color: #4E4B4B !important;}
  
  .navbar-default .navbar-toggle .icon-bar { background-color: #ff0000!important;}
  
- .navbar-toggle {margin-right: 5px!important;  }
- 
-.navbar-toggle .icon-bar { 
-    width: 4px!important;
-    height: 4px!important;
-    
-}
+ /*.navbar-toggle {margin-right: 5px!important;  }*/
+ .navbar-toggle .icon-bar+.icon-bar {margin-top: 3px!important;}
+.navbar-toggle .icon-bar {  width: 3px!important; height: 3px!important;}
