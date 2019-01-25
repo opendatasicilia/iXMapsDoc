@@ -13,7 +13,7 @@
 
 
 .navbar-default .navbar-toggle {font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;
-    border-color: #f8f8f8; }
+    border-color: #f8f8f8; !important;}
 
 .dropdown-menu {font-size:11px; }
  @media (min-width: 320px) and (max-width: 1023px)    {.dropdown-menu {font-size:15px!important; }}
@@ -32,7 +32,9 @@
         border-left: 4px solid #777777;
     }}
 
-a:focus, a:hover {color: #4E4B4B; }
+a:focus, a:hover {color: #4E4B4B; !important;}
 
  @media (min-width: 320px) and (max-width: 1023px)    {.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {color: #4E4B4B; text-decoration:underline; background-color:rgba(255,153,0,0.75);}}
+ 
+ 
  
