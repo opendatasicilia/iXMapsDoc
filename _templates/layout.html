@@ -117,7 +117,11 @@
               <!-- ultima posizione menu -->
 <li><a href="#" title="bla bla bla" target="_parent"><i class="fa fa-search" aria-hidden="true"></i> uno</a></li>      
 <li><a href="#l" title="bla bla bla" target="_parent"><i class="fa fa-cog" aria-hidden="true"></i> tre</a></li>  
-<li><a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode|default("blob") }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a></li>             
+<li><span class="wy-breadcrumbs-aside"> {% if hasdoc(pagename) %}
+            {% if display_github %}
+            {% if check_meta and 'github_url' in meta %}
+    <!-- User defined GitHub URL -->
+    <a href="{{ meta['github_url'] }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a> {% else %} <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/{{ theme_vcs_pageview_mode|default("blob") }}/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="fa fa-github"> {{ _('Edit on GitHub') }}</a></span></li>             
 <li><a href="#l" title="bla bla bla" target="_parent"><i class="fa fa-users" aria-hidden="true"></i> About</a>      </li>
 <li>{%- if builder != 'singlehtml' %}
 <div role="search" class="wy-form">
