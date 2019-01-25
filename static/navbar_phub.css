@@ -2,7 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .container {
-    width: 100%;}
+    width: 100% !important;
+	margin-left: 0px !important;}
 	
 /* codice ok */
 /* */.navbar-default {/*box-shadow: 0 1px 5px rgba(0,0,0,0.65);*/
