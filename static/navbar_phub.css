@@ -41,3 +41,5 @@ a:focus, a:hover {color: #4E4B4B ;}
  /*.navbar-toggle {margin-right: 5px!important;  }*/
 .navbar-toggle .icon-bar+.icon-bar {margin-top: 3px !important;}
 .navbar-toggle .icon-bar {  width: 3px; height: 3px !important;}
+
+.cerca {margin-top:10px; margin-left:10%; width: 80%;border-radius:20px; border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333!important; }

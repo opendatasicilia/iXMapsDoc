@@ -75,6 +75,15 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="http://ixmapsdoc.opendatasicilia.it" title="iXMapsDoc - Manuale per d'uso per iXMaps - Crea mappe tematiche multistrato in grafica vettoriale (SVG) con riquadri vettoriali stylable e grafici partizionati. Tutto gestito da una GUI reattiva e mobile compatibile in HTML5" target="_blank" > <img src="https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_oriz.png" alt="#" title="#" width="200" height="31" border="0" style="margin-top:-5px; margin-left:0px;"> </a></div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
+      <li>{%- if builder != 'singlehtml' %}
+<div role="search" class="wy-form">
+  <form id="rtd-search-form" class="wy-form" action="{{ pathto('search') }}" method="get">
+    <input type="text" name="q" class="cerca"  placeholder="{{_('cerca su iXMapsDoc') }}" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+{%- endif %}      </li>
         <li ><a href="http://ixmapsdoc.opendatasicilia.it" title="Home" target="_parent"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
         <!-- inizio menu 1 --> 
 <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 1 <b class="caret"></b></a>
@@ -115,16 +124,6 @@
 <li><a href="http://ixmapsdoc.opendatasicilia.it/it/latest/privacy.html" title="Informativa privacy estesa" target="_parent"><i class="fa fa-info" aria-hidden="true"></i> Privacy </a></li>
 <li ><a href="https://github.com/opendatasicilia/iXMapsDoc" title="Github" target="_parent"><i class="fa fa-github" aria-hidden="true"></i> On GitHub</a></li>
 <li><a href="http://ixmapsdoc.opendatasicilia.it/it/latest/sitemap.html" title="Mappa del sito" target="_parent"><i class="fa fa-map-signs" aria-hidden="true"></i> Mappa del sito</a></li>  
-<li>{%- if builder != 'singlehtml' %}
-<div role="search" class="wy-form">
-  <form id="rtd-search-form" class="wy-form" action="{{ pathto('search') }}" method="get">
-    <input type="text" name="q" style="margin-top:10px; margin-left:10%; width: 80%;border-radius:20px; border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333!important;" placeholder="{{_('cerca su iXMapsDoc') }}" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-{%- endif %}      </li>
-
      </ul>
     </div>
     <!--/.nav-collapse --> 
