@@ -12,9 +12,7 @@
 
 
 .navbar-default .navbar-toggle {font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif;
-    border-color: #f8f8f8; 
-}
-
+    border-color: #f8f8f8; }
 
 .dropdown-menu {font-size:11px; }
  @media (min-width: 320px) and (max-width: 1023px)    {.dropdown-menu {font-size:15px!important; }}
@@ -31,8 +29,7 @@
         border-top: 4px solid rgba(0, 0, 0, 0);
         border-bottom: 4px solid rgba(0, 0, 0, 0);
         border-left: 4px solid #777777;
-    }
-}
+    }}
 
 a:focus, a:hover {color: #4E4B4B; }
 
