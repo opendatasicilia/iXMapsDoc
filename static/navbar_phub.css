@@ -34,7 +34,14 @@
 
 a:focus, a:hover {color: #4E4B4B !important;}
 
- @media (min-width: 320px) and (max-width: 1023px)    {.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {color: #4E4B4B!important; text-decoration:underline!important;; background-color:rgba(255,153,0,0.75)!important;;}}
+ @media (min-width: 320px) and (max-width: 1023px)    {.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {color: #4E4B4B!important; text-decoration:underline!important;; background-color:rgba(255,153,0,0.75)!important;}}
  
+ .navbar-default .navbar-toggle .icon-bar { background-color: #ff0000!important;}
  
+ .navbar-toggle {margin-right: 5px!important;  }
  
+.navbar-toggle .icon-bar { 
+    width: 4px!important;
+    height: 4px!important;
+    
+}
