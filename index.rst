@@ -53,6 +53,7 @@ Licenze
   immediatamente successive, Mozilla Firefox versione 50.0 e successive, Chrome versione 40.0 o successiva, Opera versione 48.0 o successiva e Safari versione 9.0 o successiva.
   
 
+
 Aliquam dictum vitae mauris vitae maximus. Nunc aliquet metus tortor, vel commodo nulla luctus a. Sed vestibulum elementum hendrerit. Donec a ex nec sapien lobortis scelerisque sit amet vel enim. Aenean dignissim, neque a facilisis pharetra, nulla nunc feugiat nibh, nec mattis eros nibh sed mi. Nam hendrerit sagittis felis vulputate fermentum. Aliquam dignissim consectetur elit, nec venenatis justo interdum in. 
 
 .. _iXMaps: http://ixmaps.com/examples/
