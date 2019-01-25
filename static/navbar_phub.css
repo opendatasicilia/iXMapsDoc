@@ -19,11 +19,6 @@
 .dropdown-menu {font-size:11px; }
  @media (min-width: 320px) and (max-width: 1023px)    {.dropdown-menu {font-size:15px!important; }}
  
-
-
-
-
- 
 .dropdown-menu {font-size:11px !important;}
 .dropdown-menu > li > a  {color: #4E4B4B; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif; /*height:12px;*/ padding: 0px 5px 0px 5px;}
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {color: #000; /*height:12px;*/ background-color:rgba(255,153,0,0.50)}
