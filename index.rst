@@ -41,13 +41,6 @@ Licenze
   <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="immagonobox" style="border-width: 0;" title="Se non specificato diversamente, tutti i contenuti sono soggetti alla licenza Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA) " src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Licenza Creative Commons" width="88" height="31"  /></a></a></p>
     </embed>
 	
-Mappa del sito   
-~~~~~~~~~~~~~~
-.. toctree::
-   :maxdepth: 2
-   
-   sitemap 
-    
 
 Aliquam dictum vitae mauris vitae maximus. Nunc aliquet metus tortor, vel commodo nulla luctus a. Sed vestibulum elementum hendrerit. Donec a ex nec sapien lobortis scelerisque sit amet vel enim. Aenean dignissim, neque a facilisis pharetra, nulla nunc feugiat nibh, nec mattis eros nibh sed mi. Nam hendrerit sagittis felis vulputate fermentum. Aliquam dignissim consectetur elit, nec venenatis justo interdum in. 
 
