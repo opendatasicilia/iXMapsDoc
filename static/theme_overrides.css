@@ -246,3 +246,10 @@ blockquote::after { content: '\201D';}
 
 /*background  colonna sx*/
 .wy-side-scroll {background: #ffffff; margin-top: 40px;} 
+
+
+/*navbar*/
+.navbar-template { padding: 0px;
+                /*padding: 40px 15px;*/
+            }
+.ico_menu {font-size: 9px;}
