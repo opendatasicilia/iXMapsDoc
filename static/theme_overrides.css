@@ -41,7 +41,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
  /* disattiva background logo latest  menu sx */
 .wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover {
     background: rgba(255,255,255,0); }
-.wy-side-nav-search {margin-top: -20px; display:none!important;}  
+.wy-side-nav-search {margin-top: -20px;}  
    
 
 
@@ -247,6 +247,7 @@ blockquote::after { content: '\201D';}
 /*background  colonna sx*/
 .wy-side-scroll {background: #ffffff; margin-top: 60px;} 
 
+.wy-side-nav-search > a img.logo, .wy-side-nav-search .wy-dropdown > a img.logo {    display: none;}
 
 /*navbar*/
 .navbar-template { padding: 0px;
