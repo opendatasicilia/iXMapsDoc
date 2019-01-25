@@ -115,7 +115,7 @@
 <li><a href="#l" title="bla bla bla" target="_parent"><i class="fa fa-cog" aria-hidden="true"></i> tre</a></li>  
 <li><a href="#" title="bla bla bla" target="_parent"><i class="fa fa-info" aria-hidden="true"></i> quattro</a></li>             
 <li><a href="#l" title="bla bla bla" target="_parent"><i class="fa fa-users" aria-hidden="true"></i> About</a>      </li>
-<li><{%- if builder != 'singlehtml' %}
+<li><%- if builder != 'singlehtml' %}
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="{{ pathto('search') }}" method="get">
     <input type="text" name="q" placeholder="{{_('cerca su iXMapsDoc') }}" />
