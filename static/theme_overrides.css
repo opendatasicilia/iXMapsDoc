@@ -249,6 +249,12 @@ blockquote::after { content: '\201D';}
 
 .wy-side-nav-search > a img.logo, .wy-side-nav-search .wy-dropdown > a img.logo {    display: none;}
 
+.wy-nav-top i {font-size: 20px;}
+
+
+
+
+
 /*navbar*/
 .navbar-template { padding: 0px;
                 /*padding: 40px 15px;*/
