@@ -41,7 +41,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
  /* disattiva background logo latest  menu sx */
 .wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover {
     background: rgba(255,255,255,0); }
-.wy-side-nav-search {margin-top: -20px;}  
+.wy-side-nav-search {margin-top: -20px; display:none;}  
    
 
 
@@ -58,7 +58,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /* background nav-top sx*/
 .wy-side-nav-search {background:  #ffffff;}
 /* box search sx*/
-.wy-side-nav-search input[type="text"] {border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333!important;} 
+.wy-side-nav-search input[type="text"] {border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333!important; display: none;} 
 /*.wy-side-nav-search input[type="text"] {padding: 6px 30px; color:#333333!important;}*/
 
 .wy-nav-top a:visited {color: #fff !important; font-weight: bold !important;}
@@ -200,7 +200,7 @@ div.ethical-text {color: #333333 !important;}
 
  /* pannello sx lastest */
 .rst-versions .rst-current-version {background: #781F1F; text-align: center;}
-.wy-nav-side {background: #fcfcfc;}
+.wy-nav-side {background: #fff; /*background: #fcfcfc;*/}
 
 
 /* cambio margini riga intestazione*/
@@ -245,7 +245,7 @@ blockquote::after { content: '\201D';}
 @media (min-width: 769px) and (max-width: 1023px) {.wy-body-for-nav {margin-top: 40px; }}
 
 /*background  colonna sx*/
-.wy-side-scroll {background: #ffffff; margin-top: 40px;} 
+.wy-side-scroll {background: #ffffff; margin-top: 80px;} 
 
 
 /*navbar*/
