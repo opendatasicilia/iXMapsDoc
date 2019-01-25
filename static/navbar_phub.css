@@ -21,7 +21,7 @@
 .dropdown-menu {font-size:11px !important;}
 .dropdown-menu > li > a  {color: #4E4B4B; !important; font-family:"Open Sans", Helvetica Neue, Arial, Helvetica, sans-serif!important; /*height:12px;*/ padding: 0px 5px 0px 5px!important;}
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {color: #000!important; /*height:12px;*/ background-color:rgba(255,153,0,0.50)!important;}
-.caret {color: #4E4B4B; }
+.caret {color: #4E4B4B!important; }
 
 @media (min-width: 767px) {
     .caret-right {
