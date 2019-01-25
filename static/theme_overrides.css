@@ -42,7 +42,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 .wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover {
     background: rgba(255,255,255,0); }
 .wy-side-nav-search {margin-top: -20px;}  
-   
+ @media (min-width: 320px) and (max-width: 1023px) {.wy-side-nav-search { display:none; }}  
 
 
 /* @http://ixmapsdoc.opendatasicilia.it*/
