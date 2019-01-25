@@ -240,5 +240,3 @@ blockquote::after { content: '\201D';}
 
 /* NUOVE REGOLE*/
 .wy-body-for-nav {    background: #fcfcfc;    margin-top: 40px;}
-@media (min-width: 320px) and (max-width: 768px) {.wy-body-for-nav {padding: 1.0em; background: #fcfcfc;margin-top: 0px; }}
-@media (min-width: 769px) and (max-width: 1023px) {.wy-body-for-nav {padding: 1.0em; background: #fcfcfc;margin-top: 40px; }}
