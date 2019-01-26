@@ -42,15 +42,14 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 .wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover {
     background: rgba(255,255,255,0); }
 .wy-side-nav-search {margin-top: -20px;}  
-   
+
+/*@media screen and (min-width: 1024px) {.wy-side-nav-search { display:none; }}  */
 
 
 /* @http://ixmapsdoc.opendatasicilia.it*/
 
 /* adatta il nav-content a fullhd ed inserisce il logo QGIS */
-.wy-nav-content {max-width: 4096px; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/
-    background-repeat: no-repeat!important;  background-position: center center!important;
-    background-size: 80%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }
+.wy-nav-content {max-width: 4096px; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;*/ background-repeat: no-repeat !important;  background-position: center center !important; background-size: 80% !important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important; background: #efefef; }
 
 /* background menu sx*/
 /*.wy-side-nav-search {background: linear-gradient(#67b03a, #589632); } */
@@ -58,22 +57,19 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /* background nav-top sx*/
 .wy-side-nav-search {background:  #ffffff;}
 /* box search sx*/
-.wy-side-nav-search input[type="text"] {border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; 
-background-position: 10px; background-size: 15px; font-weight: bold;} 
-.wy-side-nav-search input[type="text"] {padding: 6px 30px;}
+.wy-side-nav-search input[type="text"] { border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333 !important;} 
+/*.wy-side-nav-search input[type="text"] {padding: 6px 30px; color:#333333!important;}*/
+@media screen and (min-width: 1024px) {.wy-side-nav-search input[type="text"] { border-color: #fff !important; font-weight: bold; padding: 6px 30px; color:#fff !important;}}
 
 .wy-nav-top a:visited {color: #fff !important; font-weight: bold !important;}
-
-/*background  colonna sx*/
-.wy-side-scroll {background: #ffffff;} 
 
 /*background  nav-content content-wrap - tutta il contenitore di dx*/
 /*.wy-nav-content-wrap { background: linear-gradient(#efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #efefef, #dedede);  }*/
 
 /* @http://ixmapsdoc.opendatasicilia.it*/
 /* testo menu verticale maiuscolo */	
-.wy-menu-vertical {	font-weight: bold; color:#333333!important; }
-.wy-menu-vertical a {color:#333333!important;}
+.wy-menu-vertical {	font-weight: bold; color:#333333 !important; }
+.wy-menu-vertical a {color:#333333 !important;}
 
 /* tutto in maiuscolo prima voce di menu */
 div.wy-menu-vertical > ul > li > a {text-transform: none !important; }
@@ -127,9 +123,10 @@ li.current > a:active {    text-decoration: underline;	color: white !important;}
 .wy-menu-vertical li.current a:current {color: #fff;}
 
 /*link di base*/
-a {color: #9F3A3A; }
-a:hover {color: #9F3A3A; text-decoration:underline; }
+a {color: #9F3A3A!important; }
+a:hover {color: #9F3A3A; text-decoration:underline !important;}
 a:visited {color: #FF0000; text-decoration:none; }
+a:focus, {color: #9F3A3A; text-decoration: underline;}
 
 /* pagina avanti/indietro */
 .btn { background-color:  #ff0000 !important;
@@ -146,8 +143,8 @@ a:visited {color: #FF0000; text-decoration:none; }
 	text-decoration: none !important;}
 	
 /* mobile logo */
-.wy-nav-top { background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile_02.png);
-background-repeat: no-repeat;background-position: center;background-color: #ff0000; }
+.wy-nav-top { /*background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/img/logo_mobile_02.png);
+background-repeat: no-repeat;background-position: center;*/ background-color: #ff0000; margin-top: 50px; }
 /* aumenta leggerhente lo spazio della pagina inmobile ed inserisce il logo QGIS al centro*/
 @media (min-width: 320px) and (max-width: 1023px) {.wy-nav-content-wrap .wy-nav-content {padding: 1.0em; /*background-image:url(https://raw.githubusercontent.com/gbvitrano/HfcQGIS/master/img/qsfondo_800.png)!important;  background-repeat: no-repeat!important;  background-position: center center!important;     background-size: 95%!important;  background-attachment: fixed !important;  -webkit-backface-visibility: hidden !important;*/ background: #efefef; }}
 @media (min-width: 320px) and (max-width: 1023px) {h2 {color: #333333 !important; font-size: 115%!important;} }
@@ -160,7 +157,7 @@ background-repeat: no-repeat;background-position: center;background-color: #ff00
 span.commit {display: none;}
 
 /* hr filetto bicolor dal centro verso l'esterno */
-hr  {border: 0; height: 1px; background:  #FF0000; background-image: linear-gradient(to right, #ff0000,  #9F3A3A, #ff0000);}
+hr  {border: 0!important; height: 1px!important; background:  #FF0000!important; background-image: linear-gradient(to right, #ff0000,  #9F3A3A, #ff0000)!important;}
 
 /* bordo/ombra immagine */
 .rst-content img {display: block; margin: 0 auto; box-shadow: 0 1px 2.5px rgba(0,0,0,0.65);	border-radius: 5px;	moz-border-radius: 5px; -webkit-border-radius: 5px;	border: 1px solid #FFF;	padding: 1px;background-color: #fff;}
@@ -201,7 +198,7 @@ div.ethical-text {color: #333333 !important;}
 
  /* pannello sx lastest */
 .rst-versions .rst-current-version {background: #781F1F; text-align: center;}
-.wy-nav-side {background: #781F1F;}
+.wy-nav-side {background: #fff; /*background: #fcfcfc;*/}
 
 
 /* cambio margini riga intestazione*/
@@ -237,3 +234,27 @@ blockquote::after { content: '\201D';}
   @media (min-width: 600px) and (max-width: 736px) {#menuft {font-size: 14px;}}
 
 .text_red{ color:#FF0000; font-style: italic;}
+
+/* NUOVE REGOLE*/
+/*barra navigazione*/
+.wy-body-for-nav {    background: #fcfcfc;    margin-top: 40px;}
+@media screen and (min-width: 1100px) {.wy-body-for-nav {margin-top: 40px;}}
+@media (min-width: 320px) and (max-width: 768px) {.wy-body-for-nav {margin-top: 0px; }}
+@media (min-width: 769px) and (max-width: 1023px) {.wy-body-for-nav {margin-top: 40px; }}
+
+/*background  colonna sx*/
+.wy-side-scroll {background: #ffffff; margin-top: 60px;} 
+
+/*.wy-side-nav-search > a img.logo, .wy-side-nav-search .wy-dropdown > a img.logo {    display: none;}*/
+
+.wy-nav-top i {font-size: 20px;}
+
+
+
+
+
+/*navbar*/
+.navbar-template { padding: 0px;
+                /*padding: 40px 15px;*/
+            }
+.ico_menu {font-size: 9px;}
