@@ -106,7 +106,7 @@ html_favicon = "img/favicon.ico"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "img/ods_ixmaps_logo_01.png"
+html_logo = "img/logo_tra.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,

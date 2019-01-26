@@ -39,12 +39,8 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /* disattiva testo Home  menu sx */
 .wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a {font-size: 0;  color: #fff; font-weight: bold; text-decoration:none; }   
  /* disattiva background logo latest  menu sx */
-.wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover {
-    background: rgba(255,255,255,0); }
+.wy-side-nav-search > a:hover, .wy-side-nav-search .wy-dropdown > a:hover { background: rgba(255,255,255,0); }
 .wy-side-nav-search {margin-top: -20px;}  
-
-/*@media screen and (min-width: 1024px) {.wy-side-nav-search { display:none; }}  */
-
 
 /* @http://ixmapsdoc.opendatasicilia.it*/
 
@@ -55,7 +51,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /*.wy-side-nav-search {background: linear-gradient(#67b03a, #589632); } */
 
 /* background nav-top sx*/
-.wy-side-nav-search {background:  #ffffff;}
+.wy-side-nav-search {background: #ffffff;}
 /* box search sx*/
 .wy-side-nav-search input[type="text"] { border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333 !important;} 
 /*.wy-side-nav-search input[type="text"] {padding: 6px 30px; color:#333333!important;}*/
@@ -245,13 +241,7 @@ blockquote::after { content: '\201D';}
 /*background  colonna sx*/
 .wy-side-scroll {background: #ffffff; margin-top: 60px;} 
 
-/*.wy-side-nav-search > a img.logo, .wy-side-nav-search .wy-dropdown > a img.logo {    display: none;}*/
-
 .wy-nav-top i {font-size: 20px;}
-
-
-
-
 
 /*navbar*/
 .navbar-template { padding: 0px;
