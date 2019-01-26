@@ -55,7 +55,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend { margin
 /* box search sx*/
 .wy-side-nav-search input[type="text"] { border-color: #FF0000; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_01.png); background-repeat: no-repeat; background-position: 10px; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#333333 !important;} 
 /*.wy-side-nav-search input[type="text"] {padding: 6px 30px; color:#333333!important;}*/
-@media screen and (min-width: 1024px) {.wy-side-nav-search input[type="text"] { border-color: #fff !important; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_02.png)!important; background-repeat: no-repeat!important; background-position: 10px!important; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#fffff !important;}}
+@media screen and (min-width: 1024px) {.wy-side-nav-search input[type="text"] { border-color: #fff !important; background-image: url(https://raw.githubusercontent.com/opendatasicilia/iXMapsDoc/master/static/search_02.png)!important; background-repeat: no-repeat!important; background-position: 10px!important; background-size: 15px; font-weight: bold; padding: 6px 30px; color:#ffffff !important;}}
 
 .wy-nav-top a:visited {color: #fff !important; font-weight: bold !important;}
 
