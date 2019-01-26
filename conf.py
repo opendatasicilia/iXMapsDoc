@@ -110,7 +110,7 @@ html_logo = "img/logo_tra.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
-    'description': 'iXMapsDoc -  Help funzioni calcolatore di campi di QGIS',
+    'description': 'iXMapsDoc - ',
     'sticky_navigation': True,
     'style_external_links': True
 }
