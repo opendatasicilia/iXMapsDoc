@@ -2,7 +2,7 @@
 
 #  opendatasicilia iXMapsDoc
 
-## Cosa è [iXMaps](http://ixmaps.com/examples/){:target="_blank"}
+## Cosa è [iXMaps](http://ixmaps.com/examples/)
 Crea mappe tematiche multistrato in grafica vettoriale (SVG) con riquadri vettoriali stylable e grafici partizionati.<br> 
 Tutto gestito da una GUI reattiva e mobile compatibile in HTML5
 
@@ -13,3 +13,5 @@ Tutto gestito da una GUI reattiva e mobile compatibile in HTML5
 - Veloce video [tutorial](http://testrc.ixmaps.com.s3-website.eu-central-1.amazonaws.com/ixmaps/docs/tutorial_1_.mp4)
 
 - Progetto RTD **[ixmapsdoc.opendatasicilia.it](http://ixmapsdoc.opendatasicilia.it)**
+
+[iXMaps](http://ixmaps.com/examples/:target="_blank")
