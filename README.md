@@ -6,7 +6,7 @@
 Crea mappe tematiche multistrato in grafica vettoriale (SVG) con riquadri vettoriali stylable e grafici partizionati.<br> 
 Tutto gestito da una GUI reattiva e mobile compatibile in HTML5
 
-[iXMaps](http://ixmaps.com/examples "iXMaps _blank")
+[iXMaps](http://ixmaps.com/examples "iXMaps")
 
 - Sito web **[ixmaps.com](http://ixmaps.com/examples/)**
 - **[API documentation](http://public.ixmaps.com/docs/ixmaps_doc_themes.html)**
