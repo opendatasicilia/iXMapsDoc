@@ -8,8 +8,6 @@ Tutto gestito da una GUI reattiva e mobile compatibile in HTML5
 
 [iXMaps](http://ixmaps.com/examples "iXMaps")
 
-[iXMaps](http://ixmaps.com/examples ("blank" "iXMaps"))
-
 - Sito web **[ixmaps.com](http://ixmaps.com/examples/)**
 - **[API documentation](http://public.ixmaps.com/docs/ixmaps_doc_themes.html)**
 - Esempi iXMaps per l'Urbanistica **[Napoli](http://cdn.ixmaps.com/ixmaps/portfolio/Napoli/index.html)**
